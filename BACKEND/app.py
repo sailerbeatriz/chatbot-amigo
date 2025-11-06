@@ -17,7 +17,7 @@ def home():
 @app.route('/chat', methods=['POST'])
 def chat():
     try:
-        # Pega a mensagem do usuário
+        # Pega a mensagem do usuárioo
         user_message = request.json['message']
         
         # Gerar resposta usando Gemini
